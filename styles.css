@@ -50,18 +50,3 @@ header h1 {
   color: #f9a825;
   font-weight: bold;
 }
-
-@media (max-width: 600px) {
-  .linea {
-    flex-direction: row;
-    gap: 10px;
-  }
-
-  .linea img {
-    width: 45px;
-  }
-
-  .linea span {
-    font-size: 14px;
-  }
-}
