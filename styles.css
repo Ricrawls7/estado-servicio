@@ -66,3 +66,16 @@ header h1 {
   height: 40px !important;
   width: auto !important;
 }
+
+.creditos {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 13px;
+  color: #555;
+  text-align: center;
+}
+
+.creditos p {
+  margin: 6px 0;
+}
