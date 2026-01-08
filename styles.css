@@ -79,3 +79,14 @@ header h1 {
 .creditos p {
   margin: 6px 0;
 }
+
+.imagen-autobuses {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.imagen-autobuses img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
