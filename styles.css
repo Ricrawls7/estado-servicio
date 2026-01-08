@@ -56,3 +56,8 @@ header h1 {
   color: #555;
   margin-bottom: 15px;
 }
+
+.logos img {
+  height: 50px;
+  width: auto;
+}
