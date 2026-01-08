@@ -20,13 +20,16 @@ header h1 {
 }
 
 .linea {
-  background: white;
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 12px;
-  margin-bottom: 12px;
-  border-radius: 4px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.linea img {
+  width: 60px;
+  height: auto;
 }
 
 .linea img {
@@ -46,4 +49,19 @@ header h1 {
 .afectaciones {
   color: #f9a825;
   font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .linea {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .linea img {
+    width: 45px;
+  }
+
+  .linea span {
+    font-size: 14px;
+  }
 }
