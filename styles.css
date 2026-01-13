@@ -90,3 +90,9 @@ header h1 {
   height: auto;
   display: block;
 }
+
+.autor {
+  font-weight: normal;
+  font-size: 13px;
+  color: #555;
+}
